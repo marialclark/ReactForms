@@ -1,0 +1,53 @@
+.NewBoxForm {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 300px;
+}
+
+.NewBoxForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewBoxForm-field {
+  margin-bottom: 15px;
+}
+
+.NewBoxForm label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.NewBoxForm input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.NewBoxForm-button {
+  text-align: center;
+}
+
+.NewBoxForm button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.NewBoxForm button:hover {
+  background-color: #218838;
+}

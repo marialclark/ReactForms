@@ -1,0 +1,25 @@
+/* Styling for individual Todo items */
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Todo button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.Todo button:hover {
+  background-color: darkred;
+}
